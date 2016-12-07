@@ -10,8 +10,7 @@ html {
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    text-rendering: optimizeLegibility;
-    
+    text-rendering: optimizeLegibility;  
 }
 
 .row {
@@ -36,7 +35,41 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #fff;
-    font-size: 200%;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+   background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+
+.btn:hover,
+btn:active {
+    background-color: #cf6d17;
 }
